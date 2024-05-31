@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1717138802378,
+  "lastUpdate": 1717139537327,
   "repoUrl": "https://github.com/commetchat/commet",
   "entries": {
     "Benchmark": [
@@ -264,6 +264,96 @@ window.BENCHMARK_DATA = {
           {
             "name": "TimelineViewer Scrolling - New generation garbage collections",
             "value": 22,
+            "unit": "Collections"
+          },
+          {
+            "name": "TimelineViewer Scrolling - Old generation garbage collections",
+            "value": 4,
+            "unit": "Collections"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "commetchat",
+            "username": "commetchat"
+          },
+          "committer": {
+            "name": "commetchat",
+            "username": "commetchat"
+          },
+          "id": "aa0c3e1bf76e42f32cd23f01a3042678a6dd4d8c",
+          "message": "Create benchmarks",
+          "timestamp": "2024-05-30T07:32:59Z",
+          "url": "https://github.com/commetchat/commet/pull/255/commits/aa0c3e1bf76e42f32cd23f01a3042678a6dd4d8c"
+        },
+        "date": 1717139536888,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "TimelineViewer Scrolling - Average Build Time",
+            "value": 1.7727352941176466,
+            "unit": "ms"
+          },
+          {
+            "name": "TimelineViewer Scrolling - Average Raster Time",
+            "value": 1.237185185185185,
+            "unit": "ms"
+          },
+          {
+            "name": "TimelineViewer Scrolling - Standard Deviation of Frame Rasterizer Time",
+            "value": 0.7805651577503429,
+            "unit": "ms"
+          },
+          {
+            "name": "TimelineViewer Scrolling - Worst Build Time",
+            "value": 4.87,
+            "unit": "ms"
+          },
+          {
+            "name": "TimelineViewer Scrolling - Worst Raster Time",
+            "value": 4.941,
+            "unit": "ms"
+          },
+          {
+            "name": "TimelineViewer Scrolling - 95th Percentile Build Time",
+            "value": 3.772,
+            "unit": "ms"
+          },
+          {
+            "name": "TimelineViewer Scrolling - 95th Percentile Raster Time",
+            "value": 2.54,
+            "unit": "ms"
+          },
+          {
+            "name": "TimelineViewer Scrolling - 50th Percentile Build Time",
+            "value": 1.896,
+            "unit": "ms"
+          },
+          {
+            "name": "TimelineViewer Scrolling - 50th Percentile Raster Time",
+            "value": 1.139,
+            "unit": "ms"
+          },
+          {
+            "name": "TimelineViewer Scrolling - Frames missed build budget",
+            "value": 0,
+            "unit": "Frames"
+          },
+          {
+            "name": "TimelineViewer Scrolling - Frame Count",
+            "value": 136,
+            "unit": "Frames"
+          },
+          {
+            "name": "TimelineViewer Scrolling - Raster Count",
+            "value": 135,
+            "unit": "Rasterizations"
+          },
+          {
+            "name": "TimelineViewer Scrolling - New generation garbage collections",
+            "value": 20,
             "unit": "Collections"
           },
           {
