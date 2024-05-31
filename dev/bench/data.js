@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1717134755660,
+  "lastUpdate": 1717135648447,
   "repoUrl": "https://github.com/commetchat/commet",
   "entries": {
     "Benchmark": [
@@ -134,6 +134,51 @@ window.BENCHMARK_DATA = {
           {
             "name": "TimelineViewer Scrolling - 95th Percentile Build Time",
             "value": 3.579,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "commetchat",
+            "username": "commetchat"
+          },
+          "committer": {
+            "name": "commetchat",
+            "username": "commetchat"
+          },
+          "id": "30cea804d54397118b190eb71c105e1a568ba667",
+          "message": "Create benchmarks",
+          "timestamp": "2024-05-30T07:32:59Z",
+          "url": "https://github.com/commetchat/commet/pull/255/commits/30cea804d54397118b190eb71c105e1a568ba667"
+        },
+        "date": 1717135647977,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "TimelineViewer Scrolling - Average Build Time",
+            "value": 1.8384166666666677,
+            "unit": "ms"
+          },
+          {
+            "name": "TimelineViewer Scrolling - Average Raster Time",
+            "value": 1.0755211267605627,
+            "unit": "ms"
+          },
+          {
+            "name": "TimelineViewer Scrolling - Worst Build Time",
+            "value": 5.213,
+            "unit": "ms"
+          },
+          {
+            "name": "TimelineViewer Scrolling - Worst Raster Time",
+            "value": 18.069,
+            "unit": "ms"
+          },
+          {
+            "name": "TimelineViewer Scrolling - 95th Percentile Build Time",
+            "value": 3.87,
             "unit": "ms"
           }
         ]
