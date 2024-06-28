@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1719564079294,
+  "lastUpdate": 1719569835047,
   "repoUrl": "https://github.com/commetchat/commet",
   "entries": {
     "Benchmark": [
@@ -5999,6 +5999,86 @@ window.BENCHMARK_DATA = {
           {
             "name": "TimelineViewer Scrolling - 90th Percentile Raster Time",
             "value": 3.509,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "commetchat",
+            "username": "commetchat"
+          },
+          "committer": {
+            "name": "commetchat",
+            "username": "commetchat"
+          },
+          "id": "f1fb91b859169741616af2acc0f59824032a7b32",
+          "message": "Refactor direct messages",
+          "timestamp": "2024-06-28T09:25:09Z",
+          "url": "https://github.com/commetchat/commet/pull/288/commits/f1fb91b859169741616af2acc0f59824032a7b32"
+        },
+        "date": 1719569834539,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "TimelineViewer Scrolling - Timeline Event Build Count",
+            "value": 1053,
+            "unit": "Builds"
+          },
+          {
+            "name": "TimelineViewer Scrolling - Timeline Event Message Body Build Count",
+            "value": 249,
+            "unit": "Builds"
+          },
+          {
+            "name": "TimelineViewer Scrolling - Timeline Event Message Reply Body Build Count",
+            "value": 176,
+            "unit": "Builds"
+          },
+          {
+            "name": "TimelineViewer Scrolling - Timeline Event Message Url Preview Build Count",
+            "value": 344,
+            "unit": "Builds"
+          },
+          {
+            "name": "TimelineViewer Scrolling - Average Build Time",
+            "value": 1.700376811594203,
+            "unit": "ms"
+          },
+          {
+            "name": "TimelineViewer Scrolling - Average Raster Time",
+            "value": 3.07475,
+            "unit": "ms"
+          },
+          {
+            "name": "TimelineViewer Scrolling - Worst Build Time",
+            "value": 3.215,
+            "unit": "ms"
+          },
+          {
+            "name": "TimelineViewer Scrolling - Worst Raster Time",
+            "value": 5.997,
+            "unit": "ms"
+          },
+          {
+            "name": "TimelineViewer Scrolling - 99th Percentile Build Time",
+            "value": 3.111,
+            "unit": "ms"
+          },
+          {
+            "name": "TimelineViewer Scrolling - 90th Percentile Build Time",
+            "value": 3.111,
+            "unit": "ms"
+          },
+          {
+            "name": "TimelineViewer Scrolling - 99th Percentile Raster Time",
+            "value": 4.189,
+            "unit": "ms"
+          },
+          {
+            "name": "TimelineViewer Scrolling - 90th Percentile Raster Time",
+            "value": 3.684,
             "unit": "ms"
           }
         ]
